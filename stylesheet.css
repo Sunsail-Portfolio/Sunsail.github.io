@@ -1,0 +1,654 @@
+@charset "UTF-8"
+/* 共通部分　*/
+html {
+    font-size: 100%;
+}
+body {
+    line-height: 1.7;
+    color: #2b366e;
+    font-family: "fot-tsukuardgothic-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f1f0ea;
+}
+a {
+    text-decoration: none;
+    cursor: default;
+}
+p {
+    font-size: 17px;
+}
+img {
+    max-width: 100%;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/* header */
+header{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+header .container {
+    display: flex;
+    justify-content: end;
+}
+
+.list-nav-header {
+    display: flex;
+    margin-top: 34px;
+    align-items: center;
+}
+.list-nav-header li {
+    margin-left: 64px;
+    font-family: "canto-pen", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+    color: #4458af;
+}
+.list-nav-header li :hover {
+    border-bottom: solid 1px #4458af;
+    transition: 0.1s;
+}
+
+
+/* トップビュー */
+.area-top-view {
+    background: url(../img/mv-sunsail.jpg)no-repeat center center;
+    background-size: cover;
+}
+.area-top-view .container {
+    height: 900px;
+    color: #4458af;
+}
+.main-ttl{
+    font-family: "annabelle-jf", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 97px;
+    padding-top: 240px;
+}
+.main-ttl span{
+    font-size: 125px;
+}
+.area-top-view h3 {
+    font-family: "fot-tsukubrdgothic-std", sans-serif;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 30px;
+}
+.reading-1 {
+    padding-top: 50px;
+    font-weight: 550;
+    font-size: 17px;
+}
+.reading-2{
+    padding-top: 20px;
+    font-weight: 550;
+    font-size: 17px;
+}
+
+/* Profile */
+.area-home-profile {
+    background: url(../img/bg-t-profile.png)no-repeat;
+    height: 750px;
+}
+
+.head-profile h2 {
+    font-family: "canto-pen", serif;
+    font-weight: 600;
+    font-style: normal; */
+    color: #4458af;
+    font-size: 80px;
+    color: #4458af;
+    margin-bottom: -80px;
+    padding-left: 340px;
+    padding-top: 50px;
+    position: relative;
+    z-index: 20;
+}
+.body-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img .img-prfile {
+    width: 530px;
+    position: absolute;
+    z-index: 10;
+}
+.text-profile {
+    padding-left: 40px;
+}
+.text-profile h4 {
+    font-size: 25px;
+    font-weight: 550;
+    padding-bottom: 40px;
+}
+.text-profile p {
+    font-size: 17px;
+    padding-bottom: 60px;
+}
+.text-profile a {
+    border: solid 1px #4458af;
+    padding: 18px 150px;
+    border-radius: 50px;
+    font-family: "canto-pen", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    color: #4458af;
+}
+.text-profile a:hover {
+    border: solid 1px #4458af;
+    padding: 18px 150px;
+    border-radius: 50px;
+    background-color: #4458af;
+    color: #fff;
+    transition: 0.5s;
+}
+
+/* Works */
+.area-home-works {
+    height: 1150px;
+}
+.ttl-home-works {
+    font-family: "canto-pen", serif;
+    font-weight: 600;
+    font-style: normal; */
+    color: #4458af;
+    font-size: 70px;
+    color: #4458af;
+    margin-bottom: -40px;
+    text-align: center;
+    padding: 50px 0;
+}
+.list-works-home {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+.w-category {
+    font-family: "canto-pen", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 17px;
+    color: #4458af;
+    padding-top: 5px;
+}
+.img-works-home:hover {
+    cursor: url(../img/View.png),auto;
+    transition: auto 1s;
+}
+.btn {
+    border: solid 1px #4458af;
+    padding: 18px 150px;
+    border-radius: 50px;
+    font-family: "canto-pen", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    color: #4458af;
+    display: inline-block;
+}
+.btn:hover{
+    border: solid 1px #4458af;
+    padding: 18px 150px;
+    border-radius: 50px;
+    background-color: #4458af;
+    color: #fff;
+    transition: 0.5s;
+}
+.btn-area {
+    text-align: center;
+    margin-top: 80px;
+}
+
+/* Contact */
+.area-home-contact {
+    background: url(../img/bg-contact.png)no-repeat;
+    height: 380px;
+    margin-top: -100px;
+}
+.head-area-contact {
+    text-align: center;
+    padding-top:50px;
+    margin-bottom: 30px;
+}
+.head-area-contact h2 {
+    font-family: "canto-pen", serif;
+    font-weight: 600;
+    font-style: normal; */
+    color: #4458af;
+    font-size: 70px;
+    color: #4458af;
+    margin-bottom: -30px;
+}
+.head-area-contact h5 {
+    font-weight: bold;
+    color: #4458af;
+    font-size: 17px;
+}
+.btn-contact {
+    border: solid 1px #fff;
+    padding: 20px 120px;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #4458af;
+    display: inline-block;
+    font-weight: bold;
+}
+.ico-contact {
+    height: 18px;
+    margin-left: 8px;
+}
+.msg-contact {
+    text-align: center;
+}
+.btn-area-contact {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+.btn-contact:hover {
+    border: solid 1px #4458af;
+    padding: 20px 120px;
+    border-radius: 50px;
+    background-color: #4458af;
+    color: #fff;
+    transition: 0.5s;
+}
+    
+
+/* footer */
+footer {
+    height: 80px;
+    text-align: center;
+}
+footer p {
+    padding-top: 25px;
+    font-size: 11px;
+}
+
+/*-------- About Page --------*/
+/* header ２ページ目以降 */
+.page-header .container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    align-items: center;
+}
+.logo {
+    width: 80%;
+}
+/* 私について */
+.area-about-profile {
+    height: 1000px;
+}
+.head-page {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 40px;
+}
+.head-page h2 {
+    font-family: "canto-pen", serif;
+    font-weight: 600;
+    font-style: normal; */
+    color: #4458af;
+    font-size: 70px;
+    color: #4458af;
+    margin-bottom: -35px;
+}
+.head-page h5 {
+    font-weight: bold;
+    color: #4458af;
+    font-size: 17px;
+}
+.about-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-about-profile {
+    width: 550px;
+    padding-left: 50px;
+}
+.msg-profile {
+    padding-left: 60px;
+}
+.msg-profile-1 {
+    padding-bottom: 15px;
+}
+
+/* Sunsail */
+.ttl-sunsail h2 {
+    font-family: "annabelle-jf", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 70px;
+    color: #4458af;
+    margin-bottom: -20px;
+}
+.ttl-sunsail p {
+    font-weight: bold;
+    color: #4458af;
+    padding-left: 50px;
+    font-size: 17px;
+}
+.head-sunsail h3 {
+    font-size: 23px;
+    font-weight: bold;
+    color: #4458af;
+    padding-top: 30px;
+    padding-bottom: 200px;
+}
+.head-sunsail {
+    padding-left: 90px;
+}
+.waveline {
+    margin-top: -90px;
+    margin-left: -40px;
+    opacity: 0.99;
+}
+.msg-sunsail {
+    margin-left: -300px;
+}
+.about-sunsail {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    margin-top: 40px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.msg-sunsail-1 {
+    padding-bottom: 15px;
+}
+.msg-sunsail-2 {
+    padding-bottom: 15px;
+}
+.img-sun {
+    position: absolute;
+    top: 560px;
+    right: 950px;
+    width: 380px;
+    z-index: -10;
+}
+
+/* Skills */
+.area-about-skills {
+    /* background: url(../img/bg-skills.png)no-repeat; */
+    background-image: linear-gradient(28deg, rgba(241, 241, 227, 0.89) 40%, rgba(233, 234, 236, 0.89) 60%);
+    border-radius: 0 200px 0 0;
+    height: 850px;
+}
+.head-area {
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+.head-area h2 {
+    font-family: "canto-pen", serif;
+    font-weight: 600;
+    font-style: normal; */
+    color: #4458af;
+    font-size: 70px;
+    color: #4458af;
+    margin-bottom: -35px;
+}
+.head-area h5 {
+    font-weight: bold;
+    color: #4458af;
+    font-size: 17px;
+}
+.skills {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: top;
+    justify-content: top;
+    margin: 60px 40px;
+}
+.category-skill {
+    font-family: "canto-pen", serif;
+    font-weight: 400;
+    font-style: normal; */
+    color: #4458af;
+    font-size: 25px;
+    color: #4458af;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.img-skill {
+    width: 80px;
+    display: block;
+    margin: 20px auto;
+}
+.text-skll {
+    width: 70%;
+    font-size: 15px;
+}
+.soft {
+    width: 48px;
+    margin-right: 15px;
+}
+.softs-skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Personal */
+.area-about-personal {
+    background-image: linear-gradient(264deg, rgba(245, 235, 221, 0.89) 40%, rgba(234, 241, 245, 0.89) 60%);
+    height: 900px;
+    border-radius:200px 0 0 0;
+    margin-top: -100px;
+}
+
+.balloon {
+    position: relative;
+    padding: 0.5rem 1.5rem ;
+    border: 1px solid #4458af;
+    border-radius: 20px;
+    background-color: #fff;
+    font-size: 17px;
+    display: inline-block;
+    color: #4458af;
+}
+
+.balloon:before,
+.balloon:after {
+    position: absolute;
+    left: 30px;
+    height: 0;
+    width: 0;
+    border: solid transparent;
+    content: "";
+}
+
+.balloon:before {
+    top: 100%;
+    margin-left: -5px;
+    border-color: transparent;
+    border-top-color: #4458af;
+    border-right-color: #4458af;
+    border-width: 6px;
+}
+
+.balloon:after {
+    top: 99%;
+    margin-left: -4px;
+    border-color: transparent;
+    border-top-color: white;
+    border-right-color: white;
+    border-width: 6px;
+}
+.text-personal {
+    border: solid 1px rgba(255,255,255,0.5);
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.5);
+    padding: 1.5em 2em;
+    margin: -10px 0 40px 20px;
+    width: 90%;
+    font-size: 16px;
+}
+.layout-2-personal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: top;
+    justify-content: top;
+    margin: 70px 40px;
+    align-items: top;
+    justify-content: center;
+}
+
+/*-------- Works Page --------*/
+.area-works {
+    height: 2750px;
+}
+.area-genre-works {
+    display: flex;
+    justify-content: space-evenly;
+}
+.genre-works {
+    font-size: 17px;
+    color: #4458af;
+    display: inline-block;
+    border: solid 1px #4458af;
+    border-radius: 30px;
+    padding: 0.4em 0;
+    width: 22%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.genre-works span {
+    font-family: "canto-pen", serif;
+    font-weight: 600;
+    font-style: normal; */
+    color: #4458af;
+    letter-spacing: 1px;
+
+}
+.genre-works:hover {
+    border: solid 1px #4458af;
+    border-radius: 30px;
+    background-color: #4458af;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.layout-2-works {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    grid-template-rows: 380px;
+    margin: 70px 40px;
+    place-content: center;
+    justify-content: center;
+}
+.category-works {
+    display: inline-block;
+    font-family: "canto-pen", serif;
+    font-weight: 400;
+    font-style: normal; */
+    border: solid 1px #4458af;
+    border-radius: 6px;
+    background-color: #4458af;
+    padding: 0 0.8em 0 0.6em;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    color: #fff;
+    font-size: 15px;
+}
+.img-works:hover {
+    cursor: url(../img/View.png),auto;
+    transition: 1s;
+}
+.msg-works {
+    text-align: center;
+    padding-top: 60px;
+}
+
+/*-------- Contact Page --------*/
+.area-contact {
+    height: 1100px;
+}
+.msg-contact {
+    text-align: center;
+    padding: 10px 0 50px 0;
+}
+.contact-form {
+    padding: 0 80px 100px 80px;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+    background-image: linear-gradient(115deg, rgba(219, 230, 236, 0.7) 40%, rgba(234, 236, 212, 0.7) 60%);
+    padding: 30px 40px 60px 40px;
+    
+  }
+  .form-row {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  .form-row:last-child {
+    border-bottom: none;
+  }
+  .form-label {
+    display: flex;
+    align-items: center;
+    width: 250px;
+  }
+  .form-label label {
+    font-weight: bold;
+  }
+  .form-label span {
+    margin-left: 10px;
+    padding: 1px 7px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4458af;
+  }
+  
+  /* フォームパーツのデザイン */
+  input, textarea {
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 15px 20px;
+    font-size: 16px;
+    color: #333;
+    flex-grow: 1;
+  }
+  input::placeholder,
+  textarea::placeholder {
+    color: #999;
+    font-size: 14px;
+  }
+  button {
+    cursor: pointer;
+    margin-top: 30px;
+    padding: 15px 100px;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #4458af;
+  }
+  button:hover {
+    opacity: 0.7;
+  }
