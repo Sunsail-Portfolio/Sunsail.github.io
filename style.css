@@ -61,7 +61,7 @@ header .container {
 
 /* トップビュー */
 .area-top-view {
-    background: url(/img/mv-sunsail.jpg)no-repeat center center;
+    background: url(img/mv-sunsail.jpg)no-repeat center center;
     background-size: cover;
 }
 .area-top-view .container {
