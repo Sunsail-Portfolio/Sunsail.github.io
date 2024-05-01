@@ -99,9 +99,8 @@ header .container {
 .area-home-profile {
     background-image: linear-gradient(28deg, rgba(221, 216, 200, 1) 40%, rgba(252, 250, 242, 1) 60%);
     border-radius: 0 0 0 200px;
-    height: 750px;
+    height: 720px;
 }
-
 .head-profile h2 {
     font-family: "canto-pen", serif;
     font-weight: 600;
@@ -268,7 +267,6 @@ img .img-prfile {
     color: #fff;
     transition: 0.5s;
 }
-    
 
 /* footer */
 footer {
@@ -465,6 +463,7 @@ footer p {
     font-size: 17px;
     display: inline-block;
     color: #4458af;
+    font-weight: #bold;
 }
 
 .balloon:before,
@@ -574,7 +573,7 @@ footer p {
     font-size: 15px;
 }
 .img-works:hover {
-    cursor: url(../img/View.png),auto;
+    cursor: url("https://github.com/Sunsail-Portfolio/Sunsail.github.io/blob/main/img/view.png?raw=true"),auto;
     transition: 1s;
 }
 .msg-works {
