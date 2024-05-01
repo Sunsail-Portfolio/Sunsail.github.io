@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunsail - Contact</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'bqh7jwr',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
+
+</head>
+<body>
+    <!-- header -->
+    <div id="adout" class="big-big">
+    <header class="page-header">
+        <div class="container">
+            <a href="index.html"><img class="logo" src="img/logo header-left.png"></a>
+            <nav>
+                <ul class="list-nav-header">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="works.html">Works</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- 問合せフォーム -->
+        <div class="area-contact">
+            <div class="container">
+                <div class="head-page">
+                <h2>Contact</h2>
+                <h5>お問合せ</h5>
+                </div> 
+                <p class="msg-contact">お仕事のご相談やご依頼等、お気軽にお問い合わせください。</p>
+                
+                <form>
+                    <div class="form-row">
+                        <div class="form-label">
+                            <label for="name">お名前</label>
+                            <span>必須</span>
+                        </div>
+                          <input type="text" id="name" name="name" placeholder="例) 山田 太朗" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-label">
+                            <label for="name">ふりがな</label>
+                            <span>必須</span>
+                        </div>
+                            <input type="text" id="ruby" name="ruby" placeholder="例) やまだ たろう" required>
+                    </div>
+                        <div class="form-row">
+                            <div class="form-label">
+                              <label for="name">会社名</label>
+                            </div>
+                            <input type="text" id="company" name="company" placeholder="例) 〇〇株式会社" required>
+                        </div>
+                    <div class="form-row">
+                        <div class="form-label">
+                            <label for="email">メールアドレス:</label>
+                            <span>必須</span>
+                        </div>
+                            <input type="email" id="email" name="email" placeholder="例) abcd@xyz.com" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-label">
+                            <label for="message">お問い合わせ内容</label>
+                            <span>必須</span>
+                        </div>
+                            <textarea id="message" name="message" rows="5"placeholder="お問い合わせ内容をこちらにご記入ください" required></textarea>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-label"></div>
+                        <button type="submit">送信する</button>
+                    </div>
+                        
+                </form>
+            </div>
+        </div>
+
+
+            
+        
+        
+    </main>
+    
+    <footer>
+        <p>All Rights Reserved 2024 ©︎ Sunsail</p>
+    </footer>
+    
+</body>
+</html>
