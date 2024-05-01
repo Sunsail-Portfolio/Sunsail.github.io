@@ -61,7 +61,7 @@ header .container {
 
 /* トップビュー */
 .area-top-view {
-    background: url(../img/mv-sunsail.jpg)no-repeat center center;
+    background: url(/img/mv-sunsail.jpg)no-repeat center center;
     background-size: cover;
 }
 .area-top-view .container {
@@ -97,7 +97,7 @@ header .container {
 
 /* Profile */
 .area-home-profile {
-    background: url(../img/bg-t-profile.png)no-repeat;
+    background: url(/img/bg-t-profile.png)no-repeat;
     height: 750px;
 }
 
@@ -215,7 +215,7 @@ img .img-prfile {
 
 /* Contact */
 .area-home-contact {
-    background: url(../img/bg-contact.png)no-repeat;
+    background: url(/img/bg-contact.png)no-repeat;
     height: 380px;
     margin-top: -100px;
 }
