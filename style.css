@@ -98,6 +98,7 @@ header .container {
 /* Profile */
 .area-home-profile {
     background-image: linear-gradient(28deg, rgba(252, 250, 242, 1) 40%, rgba(221, 216, 200, 1) 60%);
+    border-radius: 0 0 0 200px;
     height: 750px;
 }
 
@@ -186,7 +187,7 @@ img .img-prfile {
     padding-top: 5px;
 }
 .img-works-home:hover {
-    cursor: url(../img/View.png),auto;
+    cursor: url("https://github.com/Sunsail-Portfolio/Sunsail.github.io/blob/main/img/view.png?raw=true"),auto;
     transition: auto 1s;
 }
 .btn {
