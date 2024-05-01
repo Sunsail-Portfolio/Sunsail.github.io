@@ -61,7 +61,7 @@ header .container {
 
 /* トップビュー */
 .area-top-view {
-    background: url(https://github.com/Sunsail-Portfolio/Sunsail.github.io/blob/df969c95489997532fba8d2fe1dadb1fd377b84c/img/mv-sunsail.jpg)no-repeat center center;
+    background: url("https://github.com/Sunsail-Portfolio/Sunsail.github.io/blob/df969c95489997532fba8d2fe1dadb1fd377b84c/img/mv-sunsail.jpg")no-repeat center center;
     background-size: cover;
 }
 .area-top-view .container {
