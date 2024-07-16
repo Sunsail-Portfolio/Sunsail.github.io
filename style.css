@@ -653,3 +653,148 @@ form {
   button:hover {
     opacity: 0.7;
   }
+
+  /* -------Works下層ページ　Long--------- */
+.content-w2 {
+    padding: 40px 0 160px 0;
+}
+.ttl-w2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.img-w2 {
+    size: cover ;
+    margin: 40px 0 10px 0;
+}
+.url-w2 {
+    text-align: center;
+}
+.list-w2 {
+    margin: 40px 0;
+}
+.list-w2 p {
+    padding-bottom: 10px;
+}
+.list-w2 span {
+    color: #4458af;
+    margin-right: 7px;
+    font-size: smaller;
+}
+.msg-w2 {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 15px;
+}
+.mockup-w2 {
+    display: flex;
+    margin: 60px auto 100px auto;
+    align-items: center;
+    justify-content: center;
+}
+.mockup-w2 img {
+    height: 800px;
+    margin-right: 60px;
+}
+.img-mcckup {
+    box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* スマホ向けレイアウト */
+@media all and (max-width: 768px) {
+    /* 共通 */
+    .container {
+        padding: 0 30px;
+    }
+    p {
+        font-size: 15px;
+    }
+    /* header */
+    .fa-bars {
+        color: #4458af;
+        font-size: 30px;
+        display: inline-block;
+        padding-top: 40px;
+    }
+    /* Topページ */
+    .area-top-view {
+        background: url(../img/mv-m-sunsail.jpg)no-repeat center center;
+        background-size: cover;
+    }
+    .list-nav-header {
+        display: none;
+    }
+    .main-ttl h3 {
+        writing-mode: vertical-rl;
+        font-size: 19px;
+        padding-top: 50px;
+        font-weight: normal;
+    } 
+    .main-ttl h1 {
+        font-size: 38px;
+        padding-top: 0;
+    }
+    .main-ttl span {
+        font-size: 49px;
+    }
+    .main-ttl {
+        display: flex;
+        align-items: start;
+        padding-top: 90px;
+        justify-content: space-between;
+    }
+    .m-reading-1 {
+        display: inline;
+        writing-mode: vertical-rl;
+        text-align: end;
+        line-height: 2;
+    }
+    .reading-1 ,.reading-2 {
+        display: none;
+    }
+    .img-prof {
+        display: none;
+    }
+    .m-img-prof {
+    display: block;
+    position: relative;
+    width: 380px;
+    height: auto;
+    padding-top: 70px;
+    }
+    .ttl-prof {
+    position: absolute;
+    font-size: 40px;
+    top: 70px;
+    width: 350px;
+    text-align: end;
+    }
+    .body-prof {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-profile h4 {
+        display: none;
+    }
+    .text-profile p {
+        padding: 40px 0;
+    }
+    .btn-readmore {
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+        font-size: 19px;
+        padding: 12px 100px;
+    }
+
+    .ttl-home-works {
+        font-size: 38px;
+    }
+    .list-works-home {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    
+}
